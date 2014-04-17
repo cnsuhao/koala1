@@ -1,0 +1,54 @@
+/**
+ * Tencent is pleased to support the open source community by making KOALA available.
+ * Copyright (C) 2014 THL A29 Limited, a Tencent company. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ */
+
+
+{
+	"name": "Koala",
+	"main": "app/main.html",
+	"description": "Koala is a developer tool for LESS, Sass and CoffeeScript compilation.",
+	"version": "2.0.0",
+	"maintainers":{
+		"name": "Ethan Lai",
+		"email": "lain.z.q@gmail.com",
+		"web": "http://oklai.name",
+		"project": "http://koala-app.com",
+		"issues": "https://github.com/oklai/koala/issues",
+		"docs": "https://github.com/oklai/koala/wiki",
+		"faq": "https://github.com/oklai/koala/wiki/FAQ",
+		"upgrade": "http://koala-app.com/upgrade/upgrade.json",
+		"locales_repositories": "http://koala-app.com/upgrade/locales_repositories.json",
+		"compilers_repositories": "http://koala-app.com/upgrade/compilers_repositories.json"
+	},
+	"contributors": [
+		{"name": "Max Deng","web": "http://weibo.com/cooldz"},
+		{"name": "Leott Liu", "web": "http://t.qq.com/se7en860313"},
+		{"name": "Ziad Khoury","web": "https://github.com/zaygraveyard"}
+	],
+	"window": {
+		"debug": true,
+		"icon": "app/assets/img/koala.png",
+		"toolbar": true,
+		"width": 900,
+		"height": 556,
+		"resizable": false,
+		"position": "center",
+		// "frame": false,
+		"show": false
+	},
+	"dependencies": {
+		"node-webkit": ">=0.5.1"
+	},
+	"licenses": [{
+		"type": "Apache 2.0",
+		"url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"repositories": [{
+		"type": "git",
+		"url": "https://github.com/oklai/koala.git"
+	}]
+}

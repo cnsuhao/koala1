@@ -1,0 +1,12 @@
+*.sublime-project
+*.sublime-workspace
+test
+example
+extra
+build
+docs
+nw
+ruby
+*.dll
+*.exe
+*.pak
